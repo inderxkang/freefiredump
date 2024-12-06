@@ -1,0 +1,78 @@
+using Il2CppDummyDll;
+
+namespace UMA;
+
+[Token(Token = "0x20060BF")]
+public enum EBaseSlot
+{
+	[Token(Token = "0x402D709")]
+	None = 0,
+	[Token(Token = "0x402D70A")]
+	Base_Female_Hair = 1,
+	[Token(Token = "0x402D70B")]
+	Base_Female_Head_ingame = 2,
+	[Token(Token = "0x402D70C")]
+	Base_female_Feet = 3,
+	[Token(Token = "0x402D70D")]
+	Base_female_Leg = 4,
+	[Token(Token = "0x402D70E")]
+	Base_female_Chest = 5,
+	[Token(Token = "0x402D70F")]
+	Base_female_Chest_1 = 6,
+	[Token(Token = "0x402D710")]
+	Base_female_Leg_1 = 7,
+	[Token(Token = "0x402D711")]
+	Base_female_Chest_N = 8,
+	[Token(Token = "0x402D712")]
+	Base_female_Chest_N_1 = 9,
+	[Token(Token = "0x402D713")]
+	Base_female_Leg_N = 10,
+	[Token(Token = "0x402D714")]
+	Base_female_Leg_N_1 = 11,
+	[Token(Token = "0x402D715")]
+	Base_lobby_Female_Head_N = 12,
+	[Token(Token = "0x402D716")]
+	Base_lobby_Female_Hair_N = 13,
+	[Token(Token = "0x402D717")]
+	Base_female_Feet_N = 14,
+	[Token(Token = "0x402D718")]
+	Base_male_Chest_1 = 15,
+	[Token(Token = "0x402D719")]
+	Base_male_Chest = 16,
+	[Token(Token = "0x402D71A")]
+	Base_male_Feet = 17,
+	[Token(Token = "0x402D71B")]
+	Base_male_Head = 18,
+	[Token(Token = "0x402D71C")]
+	Base_male_Hair = 19,
+	[Token(Token = "0x402D71D")]
+	Base_male_Leg = 20,
+	[Token(Token = "0x402D71E")]
+	Base_male_Leg_1 = 21,
+	[Token(Token = "0x402D71F")]
+	Base_male_Chest_N_1 = 22,
+	[Token(Token = "0x402D720")]
+	Base_male_Chest_N = 23,
+	[Token(Token = "0x402D721")]
+	Base_male_Feet_N = 24,
+	[Token(Token = "0x402D722")]
+	Base_male_Hair_N = 25,
+	[Token(Token = "0x402D723")]
+	Base_male_Head_N = 26,
+	[Token(Token = "0x402D724")]
+	Base_male_Leg_N = 27,
+	[Token(Token = "0x402D725")]
+	Base_male_Leg_N_1 = 28,
+	[Token(Token = "0x402D726")]
+	Max = 28,
+	[Token(Token = "0x402D727")]
+	Count = 29,
+	[Token(Token = "0x402D728")]
+	Start = 1,
+	[Token(Token = "0x402D729")]
+	Limit = 31,
+	[Token(Token = "0x402D72A")]
+	AllBits = 536870911,
+	[Token(Token = "0x402D72B")]
+	HeadBits = 67375108
+}
